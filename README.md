@@ -7,9 +7,13 @@
 ## Code and Resources Used
 
 **Python Version:** 3.9
+
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn 
+
 **Project Structure:** https://www.youtube.com/watch?v=MpF9HENQjDo&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
+
 **Confusion Matrix Visualisation:** https://medium.com/@dtuk81/confusion-matrix-visualization-fc31e3f30fea
+
 **Information About 'Bolso Familia':** https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia
 
 ## Dataset
