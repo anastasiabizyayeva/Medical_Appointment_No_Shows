@@ -7,9 +7,13 @@
 ## Code and Resources Used
 
 **Python Version:** 3.8
+
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn 
+
 **Project Structure:** https://www.youtube.com/watch?v=MpF9HENQjDo&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
+
 **Confusion Matrix Visualisation:** https://medium.com/@dtuk81/confusion-matrix-visualization-fc31e3f30fea
+
 **Information About 'Bolso Familia':** https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia
 
 ## Dataset
@@ -62,9 +66,8 @@ The dataset was largely complete, and had no NaN values - this meant the majorit
 
 I looked at the distributions of the data and the value counts for the various variables. Below are a few highlights from the Jupyter Notebook. In particular, the heatmap shows a strong correlation between no-shows and two variables: the time between scheduling/ appointment date, and whether the patient received a text about their appointment. 
 
-![alt text](https://github.com/anastasiabizyayeva/Medical_Appointment_No_Shows/blob/master/images/heatmap.JPG "Heatmap of Variable Correlation")
-![alt text](https://github.com/anastasiabizyayeva/Medical_Appointment_No_Shows/blob/master/images/gender.JPG "Dataset Gender Breakdown")
-![alt text](https://github.com/anastasiabizyayeva/Medical_Appointment_No_Shows/blob/master/images/neighbourhoods.JPG "Dataset Neighbourhood Breakdown")
+|![alt text](https://github.com/anastasiabizyayeva/Medical_Appointment_No_Shows/blob/master/images/heatmap.JPG "Heatmap of Variable Correlation")|![alt text](https://github.com/anastasiabizyayeva/Medical_Appointment_No_Shows/blob/master/images/gender.JPG "Dataset Gender Breakdown")|![alt text](https://github.com/anastasiabizyayeva/Medical_Appointment_No_Shows/blob/master/images/neighbourhoods.JPG "Dataset Neighbourhood Breakdown")|
+| ------------- |:-------------:| -----:|
 
 ## Model Building
 
