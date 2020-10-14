@@ -6,7 +6,7 @@
 
 ## Code and Resources Used
 
-**Python Version:** 3.9
+**Python Version:** 3.8
 
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn 
 
@@ -64,8 +64,8 @@ The dataset was largely complete, and had no NaN values - this meant the majorit
 
 ## EDA
 
+I looked at the distributions of the data and the value counts for the various variables. Below are a few highlights from the Jupyter Notebook. In particular, the heatmap shows a strong correlation between no-shows and two variables: the time between scheduling/ appointment date, and whether the patient received a text about their appointment. 
+
 ## Model Building
 
 ## Model Performance
-
-## Productionization
