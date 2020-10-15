@@ -25,7 +25,7 @@ df = pd.read_csv('cleaned_data.csv', index_col=0)
 
 # cleaning from the EDA
 
-df['No-show'] = df['No-show'].apply(lambda x: 0 if x == 'No' else 1)
+df['No-show'] = df['No-show'].apply(lambda x: 1 if x == 'No' else 0)
 df = df[df['Age'] > 0]
 df = df[df['Sched_to_App_Time'] >= 0]
 df['Handcap'] = df['Handcap'].apply(lambda x: 0 if x == 0 else 1)

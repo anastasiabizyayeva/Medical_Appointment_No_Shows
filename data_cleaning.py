@@ -42,4 +42,4 @@ print(df.dtypes)
 
 df['Sched_to_App_Time'] = (df['AppointmentDay'] - df['ScheduledDay']).apply(lambda x: x.days)
 
-df.to_csv('cleaned_data.csv')
+# df.to_csv('cleaned_data.csv')
