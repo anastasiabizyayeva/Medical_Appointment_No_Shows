@@ -72,5 +72,4 @@ df['Num_NS'] = df.groupby('PatientId')['No-show'].transform('sum')
 # Count the number of conditions a patient has (Hypertension, diabetes, alcoholism, handicapped)
 
 # Export cleaned data 
-print(df.Neighbourhood.nunique())
 df.to_csv('cleaned_data.csv')
