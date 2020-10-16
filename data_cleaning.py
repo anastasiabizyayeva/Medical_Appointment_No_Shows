@@ -39,7 +39,7 @@ df['AppointmentDay'] = pd.to_datetime(df['AppointmentDay']).apply(lambda x: x.da
 
 # Convert 'no-show' column from string to int 
 
-df['No-show'] = df['No-show'].apply(lambda x: 1 if x == 'No' else 0)
+df['No-show'] = df['No-show'].apply(lambda x: 0 if x == 'No' else 1)
 
 # Filter out rows where age is less than 0
 
@@ -72,5 +72,4 @@ df['Num_NS'] = df.groupby('PatientId')['No-show'].transform('sum')
 # Count the number of conditions a patient has (Hypertension, diabetes, alcoholism, handicapped)
 
 # Export cleaned data 
-
 df.to_csv('cleaned_data.csv')
