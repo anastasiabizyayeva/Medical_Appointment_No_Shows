@@ -4,9 +4,9 @@
 * Used a dataset provided by Aquarela Advanced Analytics consisting of over 110k medical appointments made in Brazil
 * Engingeered features from the tables provided, including the scheduled day, appointment day, scheduled time, time between scheduling and appointments, day of the week of the appointment, number of appointments per patient, and number of no-shows. 
 * Optimized Logistic, KNN, and Random Forest Classifiers using GridsearchCV to reach the best model. Final model performance was:
- * ROC AUC: 0.933
- * Recall: 0.740
- * Accuracy Score: 0.877
+  * ROC AUC: 0.933
+  * Recall: 0.740
+  * Accuracy Score: 0.877
 
 ## Code and Resources Used
 
@@ -24,10 +24,11 @@
 
 **Information About 'Bolso Familia':** https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia
 
+Big thank you to [Willie Costello](https://github.com/williecostello) for helpful comments along the way!
+
 ## Dataset
 
 The dataset used for this project can be found at https://www.kaggle.com/joniarroba/noshowappointments. It initially consisted of the following variables:
-
 
 * 01 - PatientId
   * Identification of a patient
@@ -114,9 +115,9 @@ The strongest model was the GridSearch hyperparameter-tuned RF Classifier. Once 
 
 The RF Classifier's performance is as follows:
 
- * ROC AUC: 0.933
- * Recall: 0.740
- * Accuracy Score: 0.877
+  * ROC AUC: 0.933
+  * Recall: 0.740
+  * Accuracy Score: 0.877
 
 However, what is most exciting for our purposes is that the confusion matrix produces only 355 false negatives, which is only 9% of our positive class. This is great because any interventions will target the majority of the 'no-show' category, though the trade-off is that we have 2,406 false positive cases. 
 
